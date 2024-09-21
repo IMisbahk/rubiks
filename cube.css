@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+canvas {
+    display: block;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+}
+
+#controls {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px 0;
+    font-family: Arial, sans-serif;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#timer, #moveCounter {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    font-family: sans-serif;
+    border-radius: 5px;
+}
+
+#timer {
+    margin-bottom: 5px;
+}
